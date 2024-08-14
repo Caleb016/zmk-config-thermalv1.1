@@ -29,7 +29,7 @@
         discord_mute: discord_mute {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LS(LA(M))>, <&macro_release>;
+            bindings = <&macro_tap>, <&kp LS(LA(M))>, <&macro_release>;
         };
     };
 };
@@ -39,13 +39,13 @@
         discord_defen: discord_defen {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LS(LA(F))>, <&macro_release>;
+            bindings = <&macro_tap>, <&kp LS(LA(F))>, <&macro_release>;
         };
 
         clipboard: clipboard {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LC(V)>, <&macro_release>;
+            bindings = <&macro_tap>, <&kp LG(V)>, <&macro_release>;
 
             label = "CLIPBOARD";
         };
