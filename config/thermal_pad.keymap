@@ -67,8 +67,8 @@
         default_layer {
             bindings = <
 &kp C_PREV     &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_MUTE
-&discord_mute  &discord_defen    &clipboard
-&tog 0         &tog 1            &tog 2      &kp
+&discord_mute  &discord_defen    &G304
+&tog 0         &tog 1            &tog 2      &clipboard
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
