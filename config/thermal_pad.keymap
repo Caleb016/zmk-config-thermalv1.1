@@ -29,7 +29,7 @@
         discord_mute: discord_mute {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LS(LA(M))>, <&macro_release>;
+            bindings = <&macro_tap>, <&kp LC(LS(M))>, <&macro_release>;
         };
     };
 };
@@ -39,7 +39,7 @@
         discord_defen: discord_defen {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LS(LA(F))>, <&macro_release>;
+            bindings = <&macro_tap>, <&kp LC(LS(D))>, <&macro_release>;
         };
 
         clipboard: clipboard {
